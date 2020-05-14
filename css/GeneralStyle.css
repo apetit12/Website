@@ -183,7 +183,8 @@ p
 }
 
 .education-content {
-  padding-left: 400px;
+  padding-left: 370px;
+  padding-right: 120px;
   padding-bottom: 20px;
 }
 
@@ -231,10 +232,12 @@ p
 }
 
 .experience-content {
-  padding-left: 450px;
+  padding-left: 370px;
 }
 
-
+.presentation-degree-concentration {
+  padding-left: 20px;
+}
 
 
 a.homepage:link {
