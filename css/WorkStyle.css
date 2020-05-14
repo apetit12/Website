@@ -1,0 +1,296 @@
+
+/*body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:80px;
+
+}*/
+
+p{
+  padding-left: 30px;
+}
+
+header
+{
+  z-index: 3;
+}
+p
+{
+  display: block;
+  margin: 0;
+  padding: 3px;
+  line-height: 100%;
+}
+
+.research-div img {
+  display: block;
+  margin: auto;
+  margin: 130px auto 0px auto; 
+}
+
+.projects-div img {
+  display: block;
+  margin: auto;
+  margin: 130px auto 40px auto; 
+  padding-bottom: 80px;
+}
+
+.perso-div img {
+  display: block;
+  margin: auto;
+  margin: 120px auto 80px auto; 
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.research-div {
+    background-color: #ffcd9c;
+    padding-bottom: 200px;
+}
+
+.research-div-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.research-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+}
+
+.research-left {
+  padding-top: 0px;
+  width: 40%;
+/*  background-color: red;
+*/}
+
+.research-right {
+  width: 60%;
+  padding-top: 50px;
+  padding-left: 50px;
+/*  background-color: gray;
+*/}
+
+.research-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.research-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.research-summary-list li {
+  padding-bottom: 10px;
+}
+
+.research-summary-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f08d';
+    margin:0 5px 0 -25px;
+}
+
+.research-topic {
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-right: 90px;
+  padding-bottom: 60px;
+}
+
+.research-topic ul {
+  padding-left: 80px;
+}
+
+.research-title {
+  font-size: 20px;
+}
+
+.research-collaborators {
+  padding-bottom: 10px;  
+}
+.research-topic a:link {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.research-topic a:visited {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.research-topic a:hover {
+  color: #e2a432;
+  background-color: transparent;
+}
+
+.research-description {
+  line-height: 120%;
+  text-align: justify;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+.projects-div {
+  background-color:#ffeddb;
+  padding-bottom: 200px;
+}
+
+.projects-div-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projects-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.projects-left {
+  padding-top: 0px;
+  width: 40%;
+}
+
+.projects-right {
+  width: 60%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.projects-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.projects-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projects-summary-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f08d';
+    margin:0 5px 0 -25px;
+}
+
+.projects-topic {
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 90px;
+  padding-bottom: 60px;
+}
+
+.projects-topic ul {
+  padding-left: 80px;
+}
+
+.projects-topic a:link {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.projects-topic a:visited {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.projects-topic a:hover {
+  color: #e2a432;
+  background-color: transparent;
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.perso-div {
+  background-color:#ffcd9c;
+  padding-bottom: 200px;
+}
+
+.perso-div-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.perso-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.perso-left {
+  padding-top: 0px;
+  width: 40%;
+}
+
+.perso-right {
+  width: 60%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.perso-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.perso-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.perso-summary-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f08d';
+    margin:0 5px 0 -25px;
+}
+
+.perso-topic {
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 90px;
+  padding-bottom: 100px;
+}
+
+.perso-topic ul {
+  padding-left: 80px;
+}
+
+.perso-topic a:link {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.perso-topic a:visited {
+  color:#E84A27;
+  background-color: transparent;
+}
+
+.perso-topic a:hover {
+  color: #e2a432;
+  background-color: transparent;
+}
+

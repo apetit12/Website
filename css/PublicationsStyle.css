@@ -1,0 +1,245 @@
+/* Note: Padding creates extra space within an element, 
+while margin creates extra space around an element!
+*/
+p{
+  padding-left: 30px;
+}
+
+header {
+  z-index: 3;
+}
+
+p {
+  display: block;
+  margin: 0;
+  padding: 3px;
+/*  line-height: 150%;
+  margin-right: 100px;*/
+}
+
+
+
+a.publication-link:link {
+  font-size: 12px;
+  color: #E84A27;
+  background-color: transparent;
+}
+
+a.publication-link:visited {
+  font-size: 12px;
+  color: #E84A27;
+  background-color: transparent;
+}
+
+a.publication-link:hover {
+  font-size: 12px;
+  color: #e2a432;
+  background-color: transparent;
+}
+
+a.publication-link:active {
+  font-size: 12px;
+  color: #E84A27;
+  background-color: transparent;
+}
+
+.publication-container{
+  font-weight: 100;
+  margin-top: -25px;  /* Vertical margin between marker and text in aricle list */
+  margin-bottom: 20px;  /* Vertical margin after each list item */
+  line-height: 150%;
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.journal-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 28px;
+}
+
+.journal-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 475px; /* Should be removed. Only for demonstration */
+}
+
+.journal-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.journal-right {
+  background-color:#ffeddb;
+  width: 70%;
+}
+
+.journal-right p {
+  padding-bottom: 10px;
+}
+
+.journal-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.journal-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.journal-content-list{
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 50px 0px 0px 10%;
+  background-color: transparent;
+}
+
+.journal-content-list li { 
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.journal-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.manuscript-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 28px;
+}
+
+.manuscript-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 455px; /* Should be removed. Only for demonstration */
+}
+
+.manuscript-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.manuscript-right {
+  background-color:#ffeddb;
+  width: 70%;
+}
+
+.manuscript-right p {
+  padding-bottom: 10px;
+}
+
+.manuscript-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.manuscript-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.manuscript-content-list{
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 50px 0px 0px 10%;
+  background-color: transparent;
+}
+
+.manuscript-content-list li { 
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.manuscript-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.proceedings-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 28px;
+}
+
+.proceedings-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 550px; /* Should be removed. Only for demonstration */
+}
+
+.proceedings-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.proceedings-right {
+  background-color:#ffeddb;
+  width: 70%;
+}
+
+.proceedings-right p {
+  padding-bottom: 10px;
+}
+
+.proceedings-right ul {
+  list-style: none;
+}
+
+/* Clear floats after the columns */
+.proceedings-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.proceedings-content-list{
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 50px 0px 0px 10%;
+  background-color: transparent;
+}
+
+.proceedings-content-list li { 
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.proceedings-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin: 0px 5px 10px -25px;
+}
+
+
+
+
+
+
+
+

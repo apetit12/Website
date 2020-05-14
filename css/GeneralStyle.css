@@ -1,0 +1,441 @@
+/*                            */
+/* Color code                 */
+/*                            */
+/* text: #13294B              */
+/* link/selection: #E84A27    */
+/* hover: #e2a432             */
+
+
+/*                */
+/* body section   */
+/*                */
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  color: #13294B;
+  padding-top:80px;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 0;
+  height: 100%;
+}
+
+p{
+  padding-left: 10px;
+}
+
+header
+{
+  z-index: 3;
+}
+p
+{
+  display: block;
+  margin: 0;
+  padding: 3px;
+  line-height: 100%;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('../images/uiuccampus.jpg');
+
+  /* Full height */
+  height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.presentation-top {
+  height: : 500px;
+  line-height: 500px;
+  text-align: center;
+  background-color: #ffeddb ;
+}
+
+.presentation-container
+{
+  background-color: #ffcd9c;
+}
+
+/* Create two unequal columns that floats next to each other */
+.about-me-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  line-height: 350px;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.about-me-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 625px; /* Should be removed. Only for demonstration */
+}
+
+.about-me-left {
+  width: 50%;
+}
+
+.about-me-right {
+  width: 50%;
+
+}
+
+.about-me-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.about-me-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-me-content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 120px;
+  text-align: justify;
+}
+
+.about-me-content p {
+  line-height: 150%;
+}
+
+/* Create two unequal columns that floats next to each other */
+.education-div-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 28px;
+}
+
+.education-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 480px; /* Should be removed. Only for demonstration */
+}
+
+.education-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.education-right {
+  background-color:#ffeddb;
+  width: 70%;
+  padding-top: 50px;
+}
+
+.education-right ul {
+  list-style:none;
+}
+
+.education-right img {
+  float: left;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+/* Clear floats after the columns */
+.education-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.education-title{
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.education-title a:link {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-title a:visited {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-title a:hover {
+  color: #e2a432;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-title a:active {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-content {
+  padding-left: 400px;
+  padding-bottom: 20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.experience-title{
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 28px;
+}
+
+.experience-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+}
+
+.experience-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.experience-right {
+  background-color:#ffeddb;
+  width: 70%;
+  padding-top: 50px;
+
+}
+
+.experience-right ul {
+  list-style:none;
+}
+
+.experience-right img {
+  float: left;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+/* Clear floats after the columns */
+.experience-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.experience-content {
+  padding-left: 450px;
+}
+
+
+
+
+a.homepage:link {
+  background-color: transparent;
+}
+
+a.homepage:visited {
+  background-color: transparent;
+}
+
+a.homepage:hover {
+  color: #e2a432;
+  background-color: transparent;
+}
+
+a.homepage:active {
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*                */
+/* header section */
+/*                */
+.header-container-fixed
+{
+  background-color: white;
+  /*opacity: 0.5;*/
+  position: fixed; /* fix the bar in the top */
+  z-index: 99; /* always in the front */
+  width: 100%;
+  top: 0px; /* the gap to the page top */
+  height: 80px;
+}
+.header-name
+{
+  display: inline-block;
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+.header-name > p a
+{
+  display: inline-block;
+  font-size: 30px;
+  font-family: Verdana, Helvetica, sans-serif;
+  color: #13294B;
+  text-decoration: none;
+  padding-top: 28px;
+  padding-bottom: 29px;
+}
+.dropbutton
+{
+    display: none;
+}
+.header-menu
+{
+  float: center;
+  background-color: white;
+  text-align: center; /* make the menu located in the center */
+}
+ul.header-ul
+{
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  margin: 18px 0 17px 0;
+  padding-left: 0;
+}
+ul.header-ul > li
+{
+  position: relative; /* affect the dropdown menu */
+  display: inline-block;
+  color: #13294B;
+}
+ul.header-ul > li a
+{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #13294B;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+ul.header-ul > li a:hover
+{
+  color: #e2a432;
+  transition: color linear 0.2s;
+}
+ul.header-ul > li.active a.no-dropdown
+{
+  color: #E84A27;
+}
+ul.header-ul > li.active a.with-dropdown
+{
+  color: #E84A27;
+}
+ul.header-ul > li.active a:hover
+{
+  color: #e2a432;
+  transition: color linear 0.2s;
+}
+ul.dropdown > li.active a
+{
+  color: #E84A27;
+}
+ul.dropdown > li.active a:hover
+{
+  color: #e2a432;
+  transition: color linear 0.2s;
+}
+ul.header-ul > li a.no-dropdown
+{
+  padding: 15px 20px;
+  transition: color linear 0.2s, background-color linear 0.2s;
+}
+ul.header-ul > li a.with-dropdown
+{
+  padding: 15px 20px;
+  transition: color linear 0.2s, background-color linear 0.2s;
+}
+/* Dropdown Menu */
+li.list-in-li > ul.dropdown
+{
+  visibility: hidden;
+  text-align: center;
+  line-height: 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  color: #ffffff;
+  position: absolute;
+  opacity: 0;
+    z-index: 99;
+  transition: all 0.3s ease 0.1s;
+}
+li.list-in-li:hover > ul.dropdown
+{
+  visibility: visible;
+  background-color: white;
+  color: #5580a8;
+  line-height: 15px;
+  opacity: 1.0;
+}
+ul.dropdown > li
+{
+  padding: 10px 6px;
+  display: block;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  transition: background-color linear 0.1s;
+}
+ul.dropdown > li:hover
+{
+  color: #85bfc9;
+}
+
+
+
+
+
+/*                */
+/* footer section */
+/*                */
+#section-footer
+{ 
+  background-color: #ffffff;
+  text-align: center;
+}
+.copyright
+{
+  display: block;
+  background-color: rgba(55, 125, 189, 0.6);
+  text-align: center;
+}
+.copyright-column
+{
+  /*display: inline-block;*/
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  float: left;
+  padding: 20px 0 20px;
+}
+.copyright-column p
+{
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #13294B;
+}
+.copyright-column a
+{
+  color: #13294B;
+  text-decoration: none;
+}
+.copyright-column a:hover
+{
+  color: #e2a432;
+  text-decoration: none;
+}

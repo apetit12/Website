@@ -1,0 +1,28 @@
+/*                            */
+/* Color code                 */
+/*                            */
+/* text: #13294B              */
+/* link/selection: #E84A27    */
+/* hover: #e2a432             */
+
+
+/*                */
+/* body section   */
+/*                */
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/uiuccampus.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,150 @@
+
+p{
+  padding-left: 30px;
+}
+
+header
+{
+  z-index: 3;
+}
+p
+{
+  display: block;
+  margin: 0;
+  padding: 3px;
+  line-height: 100%;
+}
+
+.skills-icon {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: #ffcd9c;
+}
+
+.skills-div {
+    background-color: #ffeddb;
+    padding-top: 80px
+}
+
+.skills-div-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skills-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 320px; /* Should be removed. Only for demonstration */
+}
+
+.skills-left {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 290px;
+  text-align: center;
+/*  background-color: red;
+*/}
+
+.skills-right {
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 290px;
+  text-align: center;
+/*  background-color: gray;
+*/}
+
+.skills-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.skills-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills-div-2 {
+    background-color: #ffeddb;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.skills-topic
+{
+  font-size: 24px; 
+  padding-bottom: 30px;
+}
+
+.skills-learning {
+  padding-top: 20px;
+
+}
+
+.skills-list {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 150%;
+}
+
+.skills-div-3 {
+    background-color: #ffeddb;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+/*.skills-topic ul
+{
+  padding-left: 120px; 
+  list-style:none;
+  background-color: LightGray;
+}
+
+.skills-topic-title-list
+{
+  width: 80%;
+  font-size: 15px;
+  color: #13294B;
+  line-height: 150%;
+}
+
+.skills-topic-title-list li { 
+  margin-bottom: 10px;
+}
+
+.skills-topic-title-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f121';
+    margin:0 5px 0 -25px;
+}
+
+.skills-topic-title-list-2 li:before {    
+    font-family: 'FontAwesome';
+    content: '\f1c0';
+    margin:0 5px 0 -25px;
+}
+
+.skills-topic-title-list-3 li:before {    
+    font-family: 'FontAwesome';
+    content: '\f080';
+    margin:0 5px 0 -25px;
+}
+
+.skills-topic-title-list-4 li:before {    
+    font-family: 'FontAwesome';
+    content: '\f085';
+    margin:0 5px 0 -25px;
+}
+
+.skill-name
+{
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}*/
