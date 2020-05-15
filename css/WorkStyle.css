@@ -63,7 +63,7 @@ p
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 450px; /* Should be removed. Only for demonstration */
+    height: 480px; /* Should be removed. Only for demonstration */
 }
 
 .research-left {
@@ -158,7 +158,7 @@ p
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 400px; /* Should be removed. Only for demonstration */
+    height: 450px; /* Should be removed. Only for demonstration */
 }
 
 .projects-left {

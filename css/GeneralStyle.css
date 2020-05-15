@@ -183,7 +183,7 @@ p
 }
 
 .education-content {
-  padding-left: 370px;
+  padding-left: 350px;
   padding-right: 120px;
   padding-bottom: 20px;
 }
@@ -237,6 +237,10 @@ p
 
 .presentation-degree-concentration {
   padding-left: 20px;
+}
+
+.presentation-medias {
+  padding: 10px;
 }
 
 
