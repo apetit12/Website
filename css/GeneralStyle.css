@@ -65,7 +65,7 @@ p
 .about-me-title{
   margin-top: 50px;
   margin-left: 90px;
-  line-height: 350px;
+  line-height: 500px;
   font-size: 28px;
   text-align: center;
 
@@ -75,7 +75,7 @@ p
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 625px; /* Should be removed. Only for demonstration */
+    height: 650px; /* Should be removed. Only for demonstration */
 }
 
 .about-me-left {
@@ -84,6 +84,7 @@ p
 
 .about-me-right {
   width: 50%;
+  margin-top: 70px;
 
 }
 
