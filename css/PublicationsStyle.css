@@ -104,6 +104,7 @@ a.publication-link:active {
 .journal-content-list li { 
   margin-bottom: 20px;
   margin-top: 0px;
+  padding-right: 40px;
 }
 
 .journal-content-list li:before {    
@@ -166,6 +167,7 @@ a.publication-link:active {
 .manuscript-content-list li { 
   margin-bottom: 20px;
   margin-top: 0px;
+  padding-right: 40px;
 }
 
 .manuscript-content-list li:before {    
@@ -228,6 +230,7 @@ a.publication-link:active {
 .proceedings-content-list li { 
   margin-bottom: 20px;
   margin-top: 2px;
+  padding-right: 40px;
 }
 
 .proceedings-content-list li:before {    

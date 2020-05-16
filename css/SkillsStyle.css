@@ -23,7 +23,7 @@ p
 
 .skills-div {
     background-color: #ffeddb;
-    padding-top: 80px
+    padding-top: 60px;
 }
 
 .skills-div-title{
@@ -38,7 +38,7 @@ p
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 320px; /* Should be removed. Only for demonstration */
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .skills-left {
@@ -70,7 +70,7 @@ p
 
 .skills-div-2 {
     background-color: #ffeddb;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
