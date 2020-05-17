@@ -128,7 +128,7 @@ a.publication-link:active {
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 455px; /* Should be removed. Only for demonstration */
+    height: 475px; /* Should be removed. Only for demonstration */
 }
 
 .manuscript-left {
