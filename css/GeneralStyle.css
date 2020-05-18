@@ -9,11 +9,18 @@
 /*                */
 /* body section   */
 /*                */
+#container {
+ width: 1440px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #ffeddb;
+}
+
 body {
   font-family: Verdana, Helvetica, sans-serif;
   color: #13294B;
   padding-top:80px;
-  background-color: transparent;
+  background-color: #ffeddb;
   font-size: 18px;
   margin: 0;
   height: 100%;

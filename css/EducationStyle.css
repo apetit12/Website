@@ -29,6 +29,11 @@ img {
   margin: auto;
 }
 
+.education-coursework {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
 .education-coursework-list {
 /*  width: 100%;
 */  font-size: 15px;
