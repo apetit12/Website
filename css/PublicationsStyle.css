@@ -51,7 +51,9 @@ a.publication-link:active {
   padding-right: 30px;
 }
 
-
+.publication-authors {
+  line-height: 125%;
+}
 
 
 
