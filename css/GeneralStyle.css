@@ -10,10 +10,11 @@
 /* body section   */
 /*                */
 #container {
- width: 1440px;
- margin-left: auto;
+/* width: 1440px;
+*/ margin-left: auto;
  margin-right: auto;
  background-color: #ffeddb;
+ min-width: 1250px;
 }
 
 body {
@@ -72,7 +73,7 @@ p
 .about-me-title{
   margin-top: 50px;
   margin-left: 50px;
-  line-height: 500px;
+  line-height: 350px;
   font-size: 36px;
   text-align: center;
 
@@ -82,7 +83,7 @@ p
     box-sizing: border-box;
     float: left;
     padding: 10px;
-    height: 650px; /* Should be removed. Only for demonstration */
+    height: 420px; /* Should be removed. Only for demonstration */
 }
 
 .about-me-left {
@@ -149,7 +150,7 @@ p
 .education-right img {
   float: left;
   padding-top: 60px;
-  padding-left: 100px;
+  padding-left: 60px;
 }
 
 /* Clear floats after the columns */
@@ -191,7 +192,7 @@ p
 }
 
 .education-content {
-  padding-left: 350px;
+  padding-left: 310px;
   padding-right: 120px;
   padding-bottom: 20px;
 }
@@ -228,8 +229,8 @@ p
 
 .experience-right img {
   float: left;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 65px;
+  padding-left: 60px;
 }
 
 /* Clear floats after the columns */
@@ -421,7 +422,9 @@ ul.dropdown > li:hover
 { 
   background-color: #ffffff;
   text-align: center;
-}
+  min-width: 1250px;
+/*  width: 1440px;
+*/}
 .copyright
 {
   display: block;
