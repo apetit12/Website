@@ -66,6 +66,7 @@ img {
 .education-coursework {
   font-size: 15px;
   padding-top: 10px;
+  padding-left: 20px;
 }
 
 .education-coursework-list {
@@ -78,6 +79,7 @@ img {
 
 .education-coursework-list li { 
   margin-bottom: 10px;
+  padding-left: 40px;
 }
 
 .education-coursework-list li:before {    

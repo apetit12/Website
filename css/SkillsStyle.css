@@ -67,14 +67,6 @@ p
   color: #ffcd9c;
 }
 
-.skills-left-1 {
-  width: 50%;
-  padding-top: 30px;
-  padding-left: 290px;
-  text-align: center;
-/*  background-color: red;
-*/}
-
 .skills-learning {
   padding-top: 20px;
 }
@@ -83,6 +75,14 @@ p
   background-color:#ffcd9c;
   width: 30%;
 }
+
+.skills-left-1 {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 100px;
+  text-align: center;
+/*  background-color: red;
+*/}
 
 .skills-list {
   padding-left: 20px;
@@ -94,12 +94,13 @@ p
   background-color:#ffeddb;
   width: 70%;
   padding-top: 10px;
+  padding-right: 100px;
 }
 
 .skills-right-1 {
   width: 50%;
   padding-top: 30px;
-  padding-right: 290px;
+  padding-right: 100px;
   text-align: center;
 /*  background-color: gray;
 */}
