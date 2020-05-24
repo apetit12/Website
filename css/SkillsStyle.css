@@ -15,26 +15,14 @@ p
   line-height: 100%;
 }
 
-.skills-icon {
-  font-size: 40px;
-  padding-bottom: 30px;
-  color: #ffcd9c;
-}
-
-.skills-div {
-    background-color: #ffeddb;
-    padding-top: 40px;
-}
-
-.skills-div-title{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-}
-
 .skills-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 1000px; /* Should be removed. Only for demonstration */
+}
+
+.skills-column-1 {
     box-sizing: border-box;
     float: left;
     padding: 10px;
@@ -48,7 +36,38 @@ p
     height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.skills-left {
+.skills-div-1 {
+    background-color: #ffeddb;
+    padding-top: 40px;
+}
+
+.skills-div-2 {
+    background-color: #ffeddb;
+    padding-bottom: 30px;
+}
+
+.skills-div-3 {
+    background-color: #ffeddb;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.skills-div-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skills-icon {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: #ffcd9c;
+}
+
+.skills-left-1 {
   width: 50%;
   padding-top: 30px;
   padding-left: 290px;
@@ -56,7 +75,28 @@ p
 /*  background-color: red;
 */}
 
+.skills-learning {
+  padding-top: 20px;
+}
+
+.skills-left {
+  background-color:#ffcd9c;
+  width: 30%;
+}
+
+.skills-list {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 150%;
+}
+
 .skills-right {
+  background-color:#ffeddb;
+  width: 70%;
+  padding-top: 10px;
+}
+
+.skills-right-1 {
   width: 50%;
   padding-top: 30px;
   padding-right: 290px;
@@ -64,7 +104,7 @@ p
 /*  background-color: gray;
 */}
 
-.skills-right ul {
+.skills-right-1 ul {
   list-style:none;
 }
 
@@ -75,9 +115,11 @@ p
     clear: both;
 }
 
-.skills-div-2 {
-    background-color: #ffeddb;
-    padding-bottom: 30px;
+/* Clear floats after the columns */
+.skills-row-1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .skills-topic
@@ -86,23 +128,6 @@ p
   padding-bottom: 30px;
 }
 
-.skills-learning {
-  padding-top: 20px;
-
-}
-
-.skills-list {
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 150%;
-}
-
-.skills-div-3 {
-    background-color: #ffeddb;
-    padding-top: 80px;
-    padding-bottom: 150px;
-    text-align: center;
-}
 
 /*.skills-topic ul
 {

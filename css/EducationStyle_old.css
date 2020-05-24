@@ -1,0 +1,271 @@
+
+/*body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:80px;
+
+}*/
+
+p{
+  padding-left: 30px;
+}
+
+header
+{
+  z-index: 3;
+}
+p
+{
+  display: block;
+  margin: 0;
+  padding: 3px;
+  line-height: 100%;
+/*  margin-right: 70px;
+  margin-left: 50px;*/
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.education-coursework {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.education-coursework-list {
+/*  width: 100%;
+*/  font-size: 15px;
+  color: #13294B;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.education-coursework-list li { 
+  margin-bottom: 10px;
+}
+
+.education-coursework-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02e';
+    margin:0 5px 0 -25px;
+}
+
+.education-research-list {
+/*  width: 100%;
+*/  font-size: 15px;
+  color: #13294B;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.education-research-list li { 
+  margin-bottom: 10px;
+}
+
+.education-research-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02e';
+    margin:0 5px 0 -25px;
+}
+
+.education-course {
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.education-degree {
+  font-weight: bold;
+}
+
+/* Create two unequal columns that floats next to each other */
+.education-1-title{
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.education-1-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 1200px; /* Should be removed. Only for demonstration */
+}
+
+.education-1-left {
+  padding-top: 175px;
+  background-color:#ffcd9c;
+  width: 35%;
+}
+
+.education-1-right {
+  background-color:#ffeddb;
+  width: 65%;
+}
+
+.education-1-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.education-1-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.education-1-content-list{
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 50px 0px 0px 10%;
+  background-color: transparent;
+}
+
+.education-1-content-list li { 
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.education-1-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+.education-1-title a:link {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-1-title a:visited {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-1-title a:hover {
+  color: #e2a432;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-1-title a:active {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+.education-2-title{
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.education-2-column {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    height: 550px; /* Should be removed. Only for demonstration */
+}
+
+.education-2-left {
+  padding-top: 175px;
+  background-color:#ffcd9c;
+  width: 35%;
+}
+
+.education-2-right {
+  background-color:#ffeddb;
+  width: 65%;
+}
+
+.education-2-right ul {
+  list-style:none;
+}
+
+/* Clear floats after the columns */
+.education-2-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.education-2-content-list{
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 50px 0px 0px 10%;
+  background-color: transparent;
+}
+
+.education-2-content-list li { 
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.education-2-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+.education-2-title a:link {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-2-title a:visited {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-2-title a:hover {
+  color: #e2a432;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.education-2-title a:active {
+  color: #13294B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.education-container
+{
+  background-color: transparent;
+  margin-left: 60px;
+  padding: -50px;
+  margin-right: 150px;
+}
+
+.education-container ul
+{
+  margin-right: 80px;
+  padding-left: 130px; 
+  list-style:none;
+}
+

@@ -13,10 +13,7 @@ p {
   display: block;
   margin: 0;
   padding: 3px;
-/*  line-height: 150%;
-  margin-right: 100px;*/
 }
-
 
 
 a.publication-link:link {
@@ -54,6 +51,7 @@ a.publication-link:active {
 .publication-authors {
   line-height: 125%;
 }
+
 
 
 
@@ -241,11 +239,6 @@ a.publication-link:active {
     content: '\f0F6';
     margin: 0px 5px 10px -25px;
 }
-
-
-
-
-
 
 
 
