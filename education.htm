@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/GeneralStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/EducationStyle.css">
+    <link rel="stylesheet" href="css/SkillsStyle.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 			</div>
 	    	<ul class="header-ul">
   				<li class="navbar-fixed"> <a class="no-dropdown" href="index.htm">Home</a> </li>
-            	<li class="navbar-fixed active"> <a class="no-dropdown" href=education.htm>Education</a> </li>
+            	<li class="navbar-fixed active"> <a class="no-dropdown" href=education.htm>About</a> </li>
   				<li class="navbar-fixed"> <a class="no-dropdown" href=work.htm>Projects</a> </a>
 				<!--  			<li class="list-in-li"> <a class="with-dropdown" href=work.htm>Portfolio</a> </a>
    				<ul class="dropdown">
@@ -31,8 +32,8 @@
   				</ul> -->
   				</li>
   				<li class="navbar-fixed"> <a class="no-dropdown" href=publications.htm>Publications</a> </li>
-        		<li class="navbar-fixed"> <a class="no-dropdown" href=skills.htm>Skills</a> </li>
-			</ul>
+<!--         		<li class="navbar-fixed"> <a class="no-dropdown" href=skills.htm>Skills</a> </li>
+ -->			</ul>
     	</div>
   	</div>
 </header>
@@ -42,58 +43,152 @@
 <main id="container"> 
 
 
-	<div class="education-1-row">
-		<div class="education-1-column education-1-right">
-			<p class="education-1-title" > <a href="https://cee.illinois.edu/" target="_blank" style="text-decoration: none">University of Illinois at Urbana-Champaign</a></p>
-			<div class="education-container">
-				<p class="education-degree"> Ph.D., <i>Transportation Engineering</i> <span style="float:right;">2015-2020</span></p>
+	<div class="presentation-container">
+		<div class="education-row">
+			<div class="education-1-column education-left">
+				<p class="education-div-title"><b>EDUCATION</b></p>
+			</div>
+			<div class="education-1-column education-right">
+				<img src="images/Illinois.png" alt="Preview non available" height="30">
+				<div class="education-content">
+					<div class="education-title">
+						<p class="presentation-university"> <a class="homepage" href="https://cee.illinois.edu/" target="_blank"> <b>University of Illinois</b></a> <span style="float:right;">Urbana, IL</span></p>
+					</div>
+					<p class="presentation-degree"> Ph.D., <i>Transportation Engineering</i> <span style="float:right;">2015-2020</span></p>
 					<p class="education-coursework"> Research: </p>
 					<ul class="education-research-list">
 						<li class="education-course"> Built mathematical optimization models for applications in public transit systems </li>
 						<li class="education-course"> Developed and programmed algorithms (e.g. dynamic programming, heuristics) </li>
 					</ul>
-				<p class="education-degree"> M.S., <i>Civil Engineering</i> <span style="float:right;">2013-2014</span></p>
- 					<p class="education-concentration"> Concentration in Operations Research</p>
+
+					<p class="presentation-degree"> M.S., <i>Civil Engineering</i> <span style="float:right;">2013-2014</span></p>
+					<p class="presentation-degree-concentration"> Concentration in Operations Research</p>
 					<p class="education-coursework"> Coursework: </p>
 					<ul class="education-coursework-list">
 						<li class="education-course"> <b>MATH</b>: Linear Programming, Non-linear Programming, Integer Programming, Logistics Systems Analysis, Graph Theory</li>
 						<li class="education-course"> <b>STATS</b>: Probability, Machine Learning, Stochastic Processes, Uncertainty Quantification</li>
 						<li class="education-course"> <b>CS</b>: Data Mining, Database Systems, Numerical Analysis </li>
 					</ul>
+				</div>
+
+				<img src="images/Centrale-Lille.png" alt="Preview non available" height="57">
+				<div class="education-content">
+					<div class="education-title">
+					<p class="presentation-university"> <a class="homepage" href="https://centralelille.fr/" target="_blank"> <b>Ecole Centrale de Lille</b></a> <span style="float:right;">Lille, France</span> </p>
+					</div>
+					<p class="presentation-degree"> M.S., <i>Engineering</i> <span style="float:right;">2012-2013</span></p>
+					<p class="presentation-degree-concentration"> Concentration in Applied Mathematics</p>
+					<p class="education-coursework"> Coursework: </p>
+	 				<ul class="education-coursework-list">
+						<li class="education-course"> <b>MATH</b>: Cryptography, Soft Computing, Algorithms</li>
+						<li class="education-course"> <b>ECE</b>: Control Systems, Signal Processing, Electronic Systems</li>
+						<li class="education-course"> <b>BUSINESS</b>: Economics, Management, Financial Analysis</li>
+					</ul>
+
+					<p class="presentation-degree"> B.S., <i>Engineering</i> <span style="float:right;">2008-2012</span> </p>
+					<p class="presentation-degree-concentration"> Concentration in Advanced Mathematics and Physics</p>
+					<p class="education-coursework"> Coursework: </p>
+					<ul class="education-coursework-list">
+						<li class="education-course"> <b>MATH</b>: Mathematical Logic, Real Analysis, Linear Algebra, Set Theory and Topology, Complex Variables</li>
+						<li class="education-course"> <b>PHYSICS</b>: Classical Mechanics, Thermal Physics, Electromagnetic Fields, Electronic Circuits</li>
+					</ul>
+				</div>
 			</div>
-	  	</div>
-	  	<div class="education-1-column education-1-left">
-			<img src="images/Illinois.png" alt="Preview non available" width="288" height="50">
 		</div>
 	</div>
 
 
-
-	<div class="education-2-row">
-		<div class="education-2-column education-2-left">
-			<img src="images/Centrale-Lille.png" alt="Preview non available" width="235.2" height="84">
-		</div>
-		<div class="education-2-column education-2-right">
-			<p class="education-2-title"> <a href="https://centralelille.fr/" target="_blank" style="text-decoration: none"> Ecole Centrale de Lille</a> </p>
-			<div class="education-container">
-			<p class="education-degree"> M.S., <i>Engineering</i> <span style="float:right;">2012-2013</span></p>
-				<p class="education-concentration"> Concentration in Applied Mathematics</p>
-				<p class="education-coursework"> Coursework: </p>
- 				<ul class="education-coursework-list">
-					<li class="education-course"> <b>MATH</b>: Cryptography, Soft Computing, Algorithms</li>
-					<li class="education-course"> <b>ECE</b>: Control Systems, Signal Processing, Electronic Systems</li>
-					<li class="education-course"> <b>BUSINESS</b>: Economics, Management, Financial Analysis</li>
-				</ul>
-
-			<p class="education-degree"> B.S., <i>Engineering</i> <span style="float:right;">2008-2012</span> </p>
- 				<p class="education-concentration"> Concentration in Advanced Mathematics and Physics</p>
-				<p class="education-coursework"> Coursework: </p>
-				<ul class="education-coursework-list">
-					<li class="education-course"> <b>MATH</b>: Mathematical Logic, Real Analysis, Linear Algebra, Set Theory and Topology, Complex Variables</li>
-					<li class="education-course"> <b>PHYSICS</b>: Classical Mechanics, Thermal Physics, Electromagnetic Fields, Electronic Circuits</li>
-				</ul>
+	<div class="presentation-container">
+		<div class="experience-row">
+			<div class="experience-column experience-left">
+				<p class="experience-title"><b>EXPERIENCE</b></p>
 			</div>
-	  	</div>
+
+			<div class="experience-column experience-right">
+				<img src="images/Illinois.png" alt="Preview non available" height="30">
+				<div class="education-content">
+					<div class="education-title">
+						<p class="presentation-university"> <a class="homepage" href="https://cee.illinois.edu/" target="_blank"> <b>University of Illinois</b></a> <span style="float:right;">Urbana, IL </span></p>
+					</div>
+					<p class="presentation-degree"> <i>Research assistant</i> <span style="float:right;">2015-present</span></p>
+				</div>
+
+				<img src="images/Insight.png" alt="Preview non available" height="55">
+				<div class="education-content">
+					<div class="education-title">
+					<p class="presentation-university"> <a class="homepage" href="https://insightfellows.com/data-science" target="_blank"> <b>Insight Data Science</b></a> <span style="float:right;">New-York, NY </span></p>
+					</div>
+					<p class="presentation-degree"> <i>Data science fellow</i> <span style="float:right;">2019</span></p>
+				</div>
+
+				<img src="images/banque-neuflize-obc.png" alt="Preview non available" height="40">
+				<div class="education-content">
+					<div class="education-title">
+					<p class="presentation-university"> <a class="homepage" href="https://www.neuflizeobc.net/portail/portail.jsp" target="_blank"> <b>Neuflize OBC</b></a> <span style="float:right;">Paris, France </span> </p>
+					</div>
+					<p class="presentation-degree"> <i>Fund management intern</i> <span style="float:right;">2013</span></p>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="presentation-container">
+		<div class="skills-row">
+			<div class="skills-column skills-left">
+				<p class="experience-title"><b>SKILLS</b></p>
+			</div>
+
+			<div class="skills-column skills-right">
+			    <div class="skills-div-1">
+			        <div class="skills-row-1">
+			            <div class="skills-column-1 skills-left-1">
+			                <p class="skills-topic"> <b>LANGUAGES</b> </p> <!-- https://www.flickr.com/photos/sounderbruce/39760963114 -->
+			                <div class="skills-icon">
+			                    <i class="fa fa-code" aria-hidden="true"></i>
+			                </div>
+			                <p class="skills-list"> Python, Java, MATLAB, AMPL, HTML/CSS </p>
+			            </div>
+			            <div class="skills-column-1 skills-right-1">
+			                <p class="skills-topic"> <b>MATHEMATICS</b> </p> <!-- https://www.flickr.com/photos/sounderbruce/39760963114 -->
+			                <div class="skills-icon">
+			                    <i class="fa fa-superscript" aria-hidden="true"></i>
+			                </div>
+			                <p class="skills-list"> Linear algebra, Probability, Multivariate calculus, Optimization, Graph theory </p>
+			            </div>
+			        </div>
+			    </div>
+
+			    <div class="skills-div-2">
+			        <div class="skills-row-1">
+			            <div class="skills-column-2 skills-left-1">
+			                <p class="skills-topic"> <b>DATA TOOLS</b></p>
+			                <div class="skills-icon">
+			                    <i class="fa fa-database" aria-hidden="true"></i>
+			                </div>
+			                <p class="skills-list"> SQL, Pandas, Google BigQuery, Microsoft Access, Spark, MongoDB </p>
+			           </div>
+			            <div class="skills-column-2 skills-right-1">
+			                <p class="skills-topic"> <b>MACHINE LEARNING</b></p>
+			                <div class="skills-icon">
+			                    <i class="fa fa-cogs" aria-hidden="true"></i>
+			                </div>
+			                    <p class="skills-list"> Approximate dynamic programming, Supervised learning, Clustering, Time series analysis, Feature selection </p>
+			                    <p class="skills-learning"> <i> Currently learning: Deep learning (w/ Tensorflow) </i> </p>
+			            </div>
+			        </div>
+			    </div>
+
+			    <div class="skills-div-3">
+			        <p class="skills-topic"> <b>VISUALIZATION</b> </p> <!-- https://www.flickr.com/photos/sounderbruce/39760963114 -->
+			        <div class="skills-icon">
+			            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+			        </div>
+			         <p class="skills-list"> Matplotlib, Seaborn, Plotly/Dash </p>
+			    </div>
+
+			</div>
+		</div>
 	</div>
 
 
